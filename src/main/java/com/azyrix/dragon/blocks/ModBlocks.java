@@ -20,7 +20,7 @@ public class ModBlocks {
         public static final DeferredRegister<Block> BLOCKs =
                 DeferredRegister.create(ForgeRegistries.BLOCKS, DragonsReforged.MOD_ID);
 
-    public static final RegistryObject<Block> BLOCK_OF_WET_DRAGON_SCALE_INGOTS = registerBlock("block_of_blue_wet_scale_ingots",
+    public static final RegistryObject<Block> BLOCK_OF_BLUE_WET_INGOTS = registerBlock("block_of_blue_wet_ingots",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.DRAGONS_REFORGED);
 
 

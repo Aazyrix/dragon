@@ -1,0 +1,9 @@
+{
+  "type" : "minecraft:smelting",
+  "ingredient" : {
+    "item" : "dragon:wet_scales"
+  },
+  "result" :"dragon:blue_wet_ingot",
+  "experience" : 20.0,
+  "cookingtime" : 100
+}

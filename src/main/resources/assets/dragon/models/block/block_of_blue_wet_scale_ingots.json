@@ -1,6 +1,0 @@
-{
-  "parent" : "block/cube_all",
-  "textures" : {
-    "all" : "dragon:block/block_of_blue_wet_scale_ingots"
-  }
-}

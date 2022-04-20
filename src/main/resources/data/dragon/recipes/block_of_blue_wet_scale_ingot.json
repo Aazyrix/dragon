@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "iii",
+    "iii"
+  ],
+  "key": {
+    "i" : {
+      "item" : "dragon:blue_wet_ingot"
+    }
+  },
+  "result" : {
+    "item" : "dragon:block_of_blue_wet_ingots"
+  }
+}
