@@ -1,6 +1,7 @@
 package com.azyrix.dragon.blocks;
 
 import com.azyrix.dragon.DragonsReforged;
+import com.azyrix.dragon.item.ModCreativeModeTab;
 import com.azyrix.dragon.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -19,8 +20,8 @@ public class ModBlocks {
         public static final DeferredRegister<Block> BLOCKs =
                 DeferredRegister.create(ForgeRegistries.BLOCKS, DragonsReforged.MOD_ID);
 
-        //public static final RegistryObject<Block> COBALT_BLOCK = registerBlock("cobalt_block",
-               // () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(5f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> BLOCK_OF_WET_DRAGON_SCALE_INGOTS = registerBlock("block_of_blue_wet_scale_ingots",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.DRAGONS_REFORGED);
 
 
 

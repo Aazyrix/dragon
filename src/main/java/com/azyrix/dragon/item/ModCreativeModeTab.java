@@ -7,7 +7,7 @@ public class ModCreativeModeTab {
         public static final CreativeModeTab DRAGONS_REFORGED = new CreativeModeTab("dragontab") {
             @Override
             public ItemStack makeIcon() {
-                return new ItemStack(ModItems.INGOT_OF_BLUE_WET_SCALES.get());
+                return new ItemStack(ModItems.BLUE_WET_INGOT.get());
             }
         };
     }

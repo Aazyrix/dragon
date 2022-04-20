@@ -1,0 +1,9 @@
+{
+  "type" : "minecraft:blasting",
+  "ingredient" : {
+    "item" : "mccourse:wet_scales"
+  },
+  "result" :"mccourse:testing_ingot",
+  "experience" : 1.0,
+  "cookingtime" : 100
+}

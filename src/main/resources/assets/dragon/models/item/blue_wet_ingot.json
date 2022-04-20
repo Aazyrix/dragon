@@ -1,6 +1,6 @@
 {
   "parent" : "item/generated",
   "textures" : {
-  "layer0" : "dragon:item/ingot_of_blue_wet_scales"
+  "layer0" : "dragon:item/blue_wet_ingot"
 }
 }
